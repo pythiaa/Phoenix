@@ -1,0 +1,150 @@
+
+body {
+  margin: 0;
+  font-family: 'Cormorant Garamond', serif;
+
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  
+  background-color: white;
+ 
+  background: url(gifff.gif);
+  background-size:cover;
+  color:white;
+
+  
+
+
+}
+
+.navigation {
+  background:  #0e1217;
+  padding: 10px;
+  text-align: center;
+}
+
+.navigation ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Old Standard TT', serif;
+
+  font-size: 28px;
+
+
+
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  position: relative;
+}
+
+
+.container {
+  flex: 1;
+  margin: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.image-wrapper {
+  text-align: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+  height:900px;
+
+}
+
+#clickableImage {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+#newLayout {
+  background-color:#0e1217;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: all 0.5s ease;
+}
+
+.new-layout-content {
+  padding: 20px;
+  text-align: center;
+  text-align: justify;
+}
+
+.footer {
+  background: radial-gradient(circle, #0e1217, #cd3803);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height:15px;
+}
+
+#npcImage
+{
+  width:30%;
+  height:200px;
+}
+#speakButton, #download {
+  border: none;
+  background-color: #0e1217;
+ 
+  color: #fff; 
+  padding: 15px 30px; 
+  font-size: 16px;
+  border-radius: 50% 50% 0 0; 
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  border-color: white;
+ 
+
+}
+#downoad 
+{
+  margin-right: 40%;
+}
+#download a 
+{
+  text-decoration: none;
+  color:white;
+}
+h2 
+{
+
+  font-size: 30px;
+}
+#npcImage {
+
+  position: fixed;
+  bottom: 60px; 
+  display: flex;
+ 
+}
+#npcImage img {
+  width: 50%;
+ 
+}
